@@ -1,0 +1,44 @@
+.card {
+  width: 33.3%;
+  height: 200px;
+  margin: 5px;
+  transition: transform 0.2s; /* Animation */
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.momo-card {
+  background-image: url("../../img/chicken-steamed-momos.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.pizza-card {
+  background-image: url("../../img/chicken-pepperoni.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+.bites-card {
+  background-image: url("../../img/mojito.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  height: 100%;
+  color: #ccc;
+  font-size: 30px;
+  font-weight: bolder;
+}

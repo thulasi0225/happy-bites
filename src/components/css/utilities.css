@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* img {
+  width: 100%;
+} */
+
+.text-white {
+  color: "white";
+}
+
+.btn-link {
+  display: inline-block;
+  padding: 10px 30px;
+  color: #14213d;
+  background-color: #fca311;
+  /* color: #2d2c2e; */
+  /* background-color: #fbbd0d; */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  background-color: #f5b301;
+}

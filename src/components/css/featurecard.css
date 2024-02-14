@@ -1,0 +1,11 @@
+.feature-card {
+  margin: 10px;
+  padding: 10px;
+  font-size: 17px;
+  line-height: 1.6;
+  width: 33.3%;
+}
+
+#main-display-card {
+  width: 33.3%;
+}

@@ -1,0 +1,51 @@
+/* Contact Form */
+#contact-form {
+  flex: content;
+  margin: 30px 0 0 30px;
+}
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #fca311;
+}
+
+#contact-form textarea {
+  height: 70px;
+}
+
+.contact-section {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.contact-section img {
+  width: 30%;
+}
+
+.message {
+  height: 10vh;
+  text-align: left;
+}
+
+/* .image-section {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} */

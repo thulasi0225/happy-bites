@@ -1,0 +1,61 @@
+.main-order-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order {
+  font-size: 33px;
+  margin-bottom: 7px;
+  font-weight: 350;
+}
+
+.count {
+  font-size: 14px;
+  margin: 0 0 4px 4px;
+}
+
+.order-container {
+  margin: 10px 5px;
+  padding: 10px;
+  width: 40%;
+  border: 2px dashed #e99002;
+  border-radius: 5px;
+  opacity: 0.9;
+  background-color: antiquewhite;
+}
+
+.order-container img {
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+}
+
+.order-food-card {
+  display: flex;
+  margin: 10px 5px;
+}
+
+.icon {
+  font-size: 11px;
+  margin-left: 20px;
+}
+
+.content-heading {
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.food-content {
+  margin-left: 20px;
+  font-size: 10px;
+}
+
+.bill-payment {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-left: 6px;
+}

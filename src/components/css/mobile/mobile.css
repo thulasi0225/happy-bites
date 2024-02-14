@@ -1,0 +1,188 @@
+/* Iphone X */
+
+@media (min-width: 360px) and (max-width: 767px) {
+  /* showcase */
+  .showcase-main {
+    height: 30vh;
+  }
+
+  .showcase-main .content {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* padding: 0 20px; */
+  }
+
+  .showcase-main .content h1 {
+    font-size: 20px;
+    /* padding: 0 5px; */
+  }
+
+  .showcase-main .content .content-text {
+    font-size: 3px;
+  }
+
+  .content-heading {
+    margin: 16px;
+  }
+
+  /* menu icon */
+  .menu-button {
+    display: block;
+    font-size: 32px;
+    color: #fca311;
+  }
+  /* remove logo */
+  .logo {
+    display: none;
+  }
+
+  /* navbar start */
+  .navbar {
+    display: block;
+    padding: 0 20px;
+  }
+
+  .navbar ul {
+    display: block;
+    height: 100%;
+  }
+
+  /* toggle height */
+  #navbar {
+    height: 16vh;
+  }
+
+  #mobile-navbar {
+    height: 6vh;
+  }
+
+  .menu-nav ul li {
+    display: block;
+  }
+
+  .route-link {
+    padding: 0px 0px;
+    margin: 0px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  /* menu card */
+  .card {
+    width: 100%;
+    height: 150px;
+  }
+
+  .list {
+    display: block;
+  }
+
+  /* About img */
+  #testimonials .testimonials img {
+    display: none;
+  }
+
+  .container {
+    height: 300px;
+  }
+
+  #testimonials .container .testimonials {
+    height: 41%;
+    padding: 20px;
+    overflow: scroll;
+    margin: 10px 5px;
+  }
+
+  /* contact */
+  /*img  */
+  .contact-section img {
+    display: none;
+  }
+
+  .mobile-card {
+    margin-left: 3px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .pizza-card {
+    margin: 5px;
+  }
+
+  /* Menu */
+
+  .cart-container,
+  .cart-card {
+    display: none;
+  }
+  #mobile-food-card-container {
+    width: 100%;
+  }
+  .food-container img {
+    display: none;
+  }
+  /* toggle mobile cart */
+
+  .mobile-below-cart {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0px;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: #f8aa2c;
+    justify-content: space-between;
+    opacity: 0.9;
+  }
+
+  .mobile-below-cart h2 {
+    font-size: 15px;
+  }
+
+  .mobile-cart-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+
+  .mobile-cart-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile-cart-total {
+    margin-right: 5px;
+    font-weight: 400;
+  }
+
+  .cart-btn {
+    background-color: #e99002;
+  }
+
+  .cart-btn:hover {
+    background-color: #ff9e03;
+    cursor: pointer;
+  }
+
+  /* order page */
+  .main-order-container {
+    display: block;
+    width: 100%;
+  }
+
+  #mobile-order-container {
+    width: 100%;
+  }
+}
